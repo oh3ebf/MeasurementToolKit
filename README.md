@@ -19,11 +19,11 @@ New architecture was made to give possibility to add new communication buses and
 
 Current implementation supports GPIB interface and Can bus. Old EPP printer port code is still there for later use.
 Fully supported measurement instruments:
-	- Keithley 2015
-	- HP 3488
+Keithley 2015
+HP 3488
 	
 Partly supported instruments:
-	- HP 54600
-	- Agilent 4421b
+HP 54600
+Agilent 4421b
 	
 	
