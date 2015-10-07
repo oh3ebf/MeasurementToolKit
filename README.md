@@ -16,3 +16,14 @@ Code was totally rewritten only small parts of low level C code is recycled.
 New server side was written in C++ using Yami messaging library to communicate with client ui.
 In client code almost all code started from scratch. 
 New architecture was made to give possibility to add new communication buses and measurement instruments easily to code.
+
+Current implementation supports GPIB interface and Can bus. Old EPP printer port code is still there for later use.
+Fully supported measurement instruments:
+	- Keithley 2015
+	- HP 3488
+	
+Partly supported instruments:
+	- HP 54600
+	- Agilent 4421b
+	
+	
