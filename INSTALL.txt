@@ -1,0 +1,18 @@
+Installation instructions
+
+Server:
+	Supported Linux versions
+	Redhat 9, Ubuntu 12.04
+	
+	dependencies
+	- linux-gpib 3.1
+	- config4cpp 1.1
+	- log4cpp 1.1
+	- argtable2-11
+	- yami 3.3.1
+	- uuid 1.0.2
+	- lincan 0.3.3
+	- pthread
+
+Client:
+	dependencies

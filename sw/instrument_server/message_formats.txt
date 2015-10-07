@@ -1,0 +1,50 @@
+26.10.2012
+
+Connect:
+	string client domain name
+	string client ip
+	string client port
+	
+	- returns: 
+		SERVER_CONNECT_FAIL_RESP
+		SERVER_CONNECT_OK_RESP
+		
+Disconnect:
+	no parameters
+	
+	- returns:
+	SERVER_DISCONNECT_FAIL_RESP
+	SERVER_DISCONNECT_OK_RESP
+		
+ServerConfigGet:
+	string device parameters. 
+		"HP3488:name:HP3488a"
+		"HP3488:slot 1:HP44471"
+
+	- returns:		
+	SERVER_HANDLER_MISSING_RESP
+		
+Command message:
+	message name: gpib name of instrument
+	string cmd: command
+	other params if needed
+	
+	-returns:
+		SERVER_HANDLER_MISSING_RESP
+		SERVER_COMMAND_FAIL_RESP
+		SERVER_COMMAND_OK_RESP
+		
+statemachine command message:
+	message name: gpib name of instrument
+	string cmd: command
+	byte used capture channels in bit format
+	int repeat measurement boolean (1/0) 
+	int repeat interval in ms
+			
+		
+Data stream message:
+	string status: SERVER_DATA_OK_RESP SERVER_DATA_FAIL_RESP
+	int : data length
+	binary data: byte array data size of len
+	
+		

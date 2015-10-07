@@ -1,0 +1,28 @@
+log4j.rootCategory=DEBUG, rootAppender
+log4j.appender.rootAppender=org.apache.log4j.ConsoleAppender
+log4j.appender.rootAppender.layout=org.apache.log4j.BasicLayout
+
+log4j.category.server=DEBUG, A1      
+log4j.appender.A1=org.apache.log4j.FileAppender
+log4j.appender.A1.fileName=server.log
+log4j.appender.A1.layout=org.apache.log4j.PatternLayout
+log4j.appender.A1.layout.ConversionPattern=%n %d [%t] %-5p %c - %m
+
+log4j.category.gpib=DEBUG, A2      
+log4j.appender.A2=org.apache.log4j.FileAppender
+log4j.appender.A2.fileName=server.log
+log4j.appender.A2.layout=org.apache.log4j.PatternLayout
+log4j.appender.A2.layout.ConversionPattern=%n %d [%t] %-5p %c - %m
+
+log4j.category.message=DEBUG, A3      
+log4j.appender.A3=org.apache.log4j.FileAppender
+log4j.appender.A3.fileName=server.log
+log4j.appender.A3.layout=org.apache.log4j.PatternLayout
+log4j.appender.A3.layout.ConversionPattern=%n %d [%t] %-5p %c - %m
+
+log4j.category.device=DEBUG, A4      
+log4j.appender.A4=org.apache.log4j.FileAppender
+log4j.appender.A4.fileName=server.log
+log4j.appender.A4.layout=org.apache.log4j.PatternLayout
+log4j.appender.A4.layout.ConversionPattern=%n %d [%t] %-5p %c - %m
+
