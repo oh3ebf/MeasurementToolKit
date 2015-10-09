@@ -15,4 +15,20 @@ Server:
 	- pthread
 
 Client:
-	dependencies
+	Java Ant 3rd party dependencies
+	- Yami
+	- apache-log4j
+	- apache commons logging
+	- apache commons configuration
+	- apache commons lang	
+	- Steel series gui library
+	- FScript
+	- Jdom
+	- Swingx
+	
+	JAva Ant local libraries
+	- InstrumentGuiLib
+	- commonLib
+	- uiLib
+	
+	...more to come
