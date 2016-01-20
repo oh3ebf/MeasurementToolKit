@@ -11,7 +11,7 @@
 
 package interfaces;
 
-import lib.common.exceptions.genericException;
+import oh3ebf.lib.common.exceptions.genericException;
 import yami.ParamSet;
 
 public interface MessageInterface {

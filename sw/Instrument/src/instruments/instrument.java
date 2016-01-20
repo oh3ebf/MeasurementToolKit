@@ -10,7 +10,6 @@
  ***********************************************************/
 package instruments;
 
-import lib.common.utilities.ConfigurationInstance;
 import instruments.can.generator.NoCANDoGeneratorInstance;
 import javax.swing.*;
 import org.apache.log4j.Logger;
@@ -33,8 +32,9 @@ import java.util.Enumeration;
 import java.util.Hashtable;
 import java.util.List;
 import javax.swing.UIManager.LookAndFeelInfo;
-import lib.ui.fileWidgets.AdvancedFileChooser;
-import lib.ui.panels.GradientDesktopPane;
+import oh3ebf.lib.ui.fileWidgets.AdvancedFileChooser;
+import oh3ebf.lib.ui.panels.GradientDesktopPane;
+import oh3ebf.lib.common.utilities.ConfigurationInstance;
 import scriptEngine.scriptingInstance;
 
 public class instrument extends javax.swing.JFrame implements DesktopInterface, Runnable {
@@ -361,9 +361,9 @@ public class instrument extends javax.swing.JFrame implements DesktopInterface, 
 
         jPanel3 = new javax.swing.JPanel();
         ConnectButton = new javax.swing.JButton();
-        GpibToggleButton = new lib.ui.buttons.CheckToggleButton();
-        CanToggleButton = new lib.ui.buttons.CheckToggleButton();
-        ToolsToggleButton = new lib.ui.buttons.CheckToggleButton();
+        GpibToggleButton = new oh3ebf.lib.ui.buttons.CheckToggleButton();
+        CanToggleButton = new oh3ebf.lib.ui.buttons.CheckToggleButton();
+        ToolsToggleButton = new oh3ebf.lib.ui.buttons.CheckToggleButton();
         desktop = new javax.swing.JDesktopPane();
         jMenuBar1 = new javax.swing.JMenuBar();
         FileMenu = new javax.swing.JMenu();
@@ -770,11 +770,11 @@ public class instrument extends javax.swing.JFrame implements DesktopInterface, 
     }
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JMenuItem AboutMenuItem;
-    private lib.ui.buttons.CheckToggleButton CanToggleButton;
+    private oh3ebf.lib.ui.buttons.CheckToggleButton CanToggleButton;
     private javax.swing.JButton ConnectButton;
     private javax.swing.JMenuItem ExitMenuItem;
     private javax.swing.JMenu FileMenu;
-    private lib.ui.buttons.CheckToggleButton GpibToggleButton;
+    private oh3ebf.lib.ui.buttons.CheckToggleButton GpibToggleButton;
     private javax.swing.JMenu HelpMenu;
     private javax.swing.JMenuItem OpenMenuItem;
     private javax.swing.JMenuItem OptionsMenuItem;
@@ -782,7 +782,7 @@ public class instrument extends javax.swing.JFrame implements DesktopInterface, 
     private javax.swing.JMenuItem SaveAsMenuItem;
     private javax.swing.JMenuItem SaveMenuItem;
     private javax.swing.JMenu ToolsMenu;
-    private lib.ui.buttons.CheckToggleButton ToolsToggleButton;
+    private oh3ebf.lib.ui.buttons.CheckToggleButton ToolsToggleButton;
     private javax.swing.JMenu WindowMenu;
     private javax.swing.JDesktopPane desktop;
     private javax.swing.JMenuBar jMenuBar1;

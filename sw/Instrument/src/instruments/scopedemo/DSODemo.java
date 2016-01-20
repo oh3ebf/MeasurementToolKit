@@ -11,14 +11,14 @@
 
 package instruments.scopedemo;
 
+import oh3ebf.lib.gui.ScopePlot;
 import javax.swing.*;
-import lib.gui.*;
-import lib.gui.interfaces.PlotCursorInterface;
+import oh3ebf.lib.gui.interfaces.PlotCursorInterface;
 import org.apache.log4j.Logger;
 import components.ScaleSpinnerBox;
 import interfaces.ScaleSpinnerBoxInterface;
 import java.text.DecimalFormat;
-import lib.ui.comboboxes.uiHelpers;
+import oh3ebf.lib.ui.comboboxes.uiHelpers;
 
 
 public class DSODemo extends javax.swing.JInternalFrame implements ScaleSpinnerBoxInterface, PlotCursorInterface {
@@ -482,7 +482,7 @@ public class DSODemo extends javax.swing.JInternalFrame implements ScaleSpinnerB
 
     private void jRadioButton22ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton22ActionPerformed
         // XY cursors
-        scope.setCursorMode(lib.gui.primitives.PlotCursor.CURSOR_XY);
+        scope.setCursorMode(oh3ebf.lib.gui.primitives.PlotCursor.CURSOR_XY);
         jLabel1.setEnabled(true);
         jLabel2.setEnabled(true);        
         jLabel3.setEnabled(true);
@@ -491,7 +491,7 @@ public class DSODemo extends javax.swing.JInternalFrame implements ScaleSpinnerB
 
     private void jRadioButton21ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton21ActionPerformed
         // Y cursors
-        scope.setCursorMode(lib.gui.primitives.PlotCursor.CURSOR_Y);
+        scope.setCursorMode(oh3ebf.lib.gui.primitives.PlotCursor.CURSOR_Y);
         jLabel1.setEnabled(false);
         jLabel2.setEnabled(false);
         jLabel3.setEnabled(true);
@@ -500,7 +500,7 @@ public class DSODemo extends javax.swing.JInternalFrame implements ScaleSpinnerB
 
     private void jRadioButton20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton20ActionPerformed
         // X cursors
-        scope.setCursorMode(lib.gui.primitives.PlotCursor.CURSOR_X);
+        scope.setCursorMode(oh3ebf.lib.gui.primitives.PlotCursor.CURSOR_X);
         jLabel1.setEnabled(true);
         jLabel2.setEnabled(true);
         jLabel3.setEnabled(false);
@@ -509,7 +509,7 @@ public class DSODemo extends javax.swing.JInternalFrame implements ScaleSpinnerB
 
     private void jRadioButton19ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton19ActionPerformed
         // no cursors
-        scope.setCursorMode(lib.gui.primitives.PlotCursor.CURSOR_NONE);
+        scope.setCursorMode(oh3ebf.lib.gui.primitives.PlotCursor.CURSOR_NONE);
         jLabel1.setEnabled(false);
         jLabel2.setEnabled(false);
         jLabel3.setEnabled(false);

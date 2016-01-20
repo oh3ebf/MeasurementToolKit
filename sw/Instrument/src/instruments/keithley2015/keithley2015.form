@@ -63,6 +63,7 @@
   <AuxValues>
     <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
     <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
     <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
     <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
     <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
@@ -163,14 +164,11 @@
             <Property name="useNullLayout" type="boolean" value="false"/>
           </Layout>
           <SubComponents>
-            <Component class="lib.ui.buttons.ModelButton" name="DCVmodelButton">
+            <Component class="oh3ebf.lib.ui.buttons.ModelButton" name="DCVmodelButton">
               <Properties>
                 <Property name="text" type="java.lang.String" value="DCV"/>
                 <Property name="colorModel" type="int" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
                   <Connection code="ModelButton.ModelNormal" type="code"/>
-                </Property>
-                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                  <Font name="Dialog" size="12" style="1"/>
                 </Property>
                 <Property name="horizontalTextPosition" type="int" value="0"/>
                 <Property name="toggleMode" type="boolean" value="true"/>
@@ -187,14 +185,11 @@
                 </Constraint>
               </Constraints>
             </Component>
-            <Component class="lib.ui.buttons.ModelButton" name="ACVmodelButton">
+            <Component class="oh3ebf.lib.ui.buttons.ModelButton" name="ACVmodelButton">
               <Properties>
                 <Property name="text" type="java.lang.String" value="DCV"/>
                 <Property name="colorModel" type="int" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
                   <Connection code="ModelButton.ModelNormal" type="code"/>
-                </Property>
-                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                  <Font name="Dialog" size="12" style="1"/>
                 </Property>
                 <Property name="horizontalTextPosition" type="int" value="0"/>
                 <Property name="toggleMode" type="boolean" value="true"/>
@@ -211,14 +206,11 @@
                 </Constraint>
               </Constraints>
             </Component>
-            <Component class="lib.ui.buttons.ModelButton" name="DCAmodelButton">
+            <Component class="oh3ebf.lib.ui.buttons.ModelButton" name="DCAmodelButton">
               <Properties>
                 <Property name="text" type="java.lang.String" value="DCV"/>
                 <Property name="colorModel" type="int" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
                   <Connection code="ModelButton.ModelNormal" type="code"/>
-                </Property>
-                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                  <Font name="Dialog" size="12" style="1"/>
                 </Property>
                 <Property name="horizontalTextPosition" type="int" value="0"/>
                 <Property name="toggleMode" type="boolean" value="true"/>
@@ -235,14 +227,11 @@
                 </Constraint>
               </Constraints>
             </Component>
-            <Component class="lib.ui.buttons.ModelButton" name="ACAmodelButton">
+            <Component class="oh3ebf.lib.ui.buttons.ModelButton" name="ACAmodelButton">
               <Properties>
                 <Property name="text" type="java.lang.String" value="DCV"/>
                 <Property name="colorModel" type="int" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
                   <Connection code="ModelButton.ModelNormal" type="code"/>
-                </Property>
-                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                  <Font name="Dialog" size="12" style="1"/>
                 </Property>
                 <Property name="horizontalTextPosition" type="int" value="0"/>
                 <Property name="toggleMode" type="boolean" value="true"/>
@@ -259,14 +248,11 @@
                 </Constraint>
               </Constraints>
             </Component>
-            <Component class="lib.ui.buttons.ModelButton" name="resistance2ModelButton">
+            <Component class="oh3ebf.lib.ui.buttons.ModelButton" name="resistance2ModelButton">
               <Properties>
                 <Property name="text" type="java.lang.String" value="DCV"/>
                 <Property name="colorModel" type="int" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
                   <Connection code="ModelButton.ModelNormal" type="code"/>
-                </Property>
-                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                  <Font name="Dialog" size="12" style="1"/>
                 </Property>
                 <Property name="horizontalTextPosition" type="int" value="0"/>
                 <Property name="toggleMode" type="boolean" value="true"/>
@@ -283,14 +269,11 @@
                 </Constraint>
               </Constraints>
             </Component>
-            <Component class="lib.ui.buttons.ModelButton" name="resistance4ModelButton">
+            <Component class="oh3ebf.lib.ui.buttons.ModelButton" name="resistance4ModelButton">
               <Properties>
                 <Property name="text" type="java.lang.String" value="DCV"/>
                 <Property name="colorModel" type="int" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
                   <Connection code="ModelButton.ModelNormal" type="code"/>
-                </Property>
-                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                  <Font name="Dialog" size="12" style="1"/>
                 </Property>
                 <Property name="horizontalTextPosition" type="int" value="0"/>
                 <Property name="toggleMode" type="boolean" value="true"/>
@@ -307,14 +290,11 @@
                 </Constraint>
               </Constraints>
             </Component>
-            <Component class="lib.ui.buttons.ModelButton" name="frequencyModelButton">
+            <Component class="oh3ebf.lib.ui.buttons.ModelButton" name="frequencyModelButton">
               <Properties>
                 <Property name="text" type="java.lang.String" value="DCV"/>
                 <Property name="colorModel" type="int" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
                   <Connection code="ModelButton.ModelNormal" type="code"/>
-                </Property>
-                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                  <Font name="Dialog" size="12" style="1"/>
                 </Property>
                 <Property name="horizontalTextPosition" type="int" value="0"/>
                 <Property name="toggleMode" type="boolean" value="true"/>
@@ -331,14 +311,11 @@
                 </Constraint>
               </Constraints>
             </Component>
-            <Component class="lib.ui.buttons.ModelButton" name="temperatureModelButton">
+            <Component class="oh3ebf.lib.ui.buttons.ModelButton" name="temperatureModelButton">
               <Properties>
                 <Property name="text" type="java.lang.String" value="DCV"/>
                 <Property name="colorModel" type="int" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
                   <Connection code="ModelButton.ModelNormal" type="code"/>
-                </Property>
-                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                  <Font name="Dialog" size="12" style="1"/>
                 </Property>
                 <Property name="horizontalTextPosition" type="int" value="0"/>
                 <Property name="toggleMode" type="boolean" value="true"/>
@@ -421,14 +398,11 @@
 
       <Layout class="org.netbeans.modules.form.compat2.layouts.DesignFlowLayout"/>
       <SubComponents>
-        <Component class="lib.ui.buttons.ModelButton" name="captureModelButton">
+        <Component class="oh3ebf.lib.ui.buttons.ModelButton" name="captureModelButton">
           <Properties>
             <Property name="text" type="java.lang.String" value="CAPTURE"/>
             <Property name="colorModel" type="int" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
               <Connection code="ModelButton.ModelNormal" type="code"/>
-            </Property>
-            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Dialog" size="12" style="1"/>
             </Property>
             <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
               <Dimension value="[90, 30]"/>

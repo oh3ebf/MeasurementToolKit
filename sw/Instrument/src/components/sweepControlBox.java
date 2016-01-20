@@ -12,14 +12,14 @@ package components;
 
 import interfaces.progressUpdateInterface;
 import java.awt.Color;
-import lib.ui.buttons.ModelButton;
+import oh3ebf.lib.ui.buttons.ModelButton;
 import interfaces.sweepContolBoxInterface;
 import java.util.Enumeration;
 import java.util.Hashtable;
 import javax.swing.JOptionPane;
 import javax.swing.JSpinner;
 import javax.swing.text.DefaultFormatter;
-import lib.ui.comboboxes.uiHelpers;
+import oh3ebf.lib.ui.comboboxes.uiHelpers;
 import org.apache.log4j.Logger;
 
 public class sweepControlBox extends javax.swing.JPanel implements progressUpdateInterface {
@@ -689,7 +689,7 @@ public class sweepControlBox extends javax.swing.JPanel implements progressUpdat
     private javax.swing.JProgressBar nestedProgressBar;
     private javax.swing.JSpinner nestedStartSpinner;
     private javax.swing.JSpinner nestedStepSpinner;
-    private lib.ui.buttons.ModelButton sweepButton;
+    private oh3ebf.lib.ui.buttons.ModelButton sweepButton;
     private javax.swing.JSpinner timerSpinner;
     // End of variables declaration//GEN-END:variables
 }

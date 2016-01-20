@@ -10,7 +10,6 @@
  ***********************************************************/
 package instruments.keithley2015;
 
-import lib.common.utilities.ConfigurationInstance;
 import components.*;
 import interfaces.MessageCallbackInterface;
 import interfaces.MessageInterface;
@@ -23,8 +22,9 @@ import javax.swing.JOptionPane;
 import javax.swing.text.DefaultCaret;
 import javax.swing.text.DefaultFormatterFactory;
 import javax.swing.text.Document;
-import lib.ui.buttons.AdvancedButtonGroup;
-import lib.ui.buttons.ModelButton;
+import oh3ebf.lib.ui.buttons.AdvancedButtonGroup;
+import oh3ebf.lib.ui.buttons.ModelButton;
+import oh3ebf.lib.common.utilities.ConfigurationInstance;
 import org.apache.log4j.Logger;
 import yami.ParamSet;
 
@@ -760,12 +760,12 @@ public class keithley2015 extends javax.swing.JInternalFrame implements
 }//GEN-LAST:event_optionsMenuItemActionPerformed
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private lib.ui.buttons.ModelButton ACAmodelButton;
-    private lib.ui.buttons.ModelButton ACVmodelButton;
-    private lib.ui.buttons.ModelButton DCAmodelButton;
-    private lib.ui.buttons.ModelButton DCVmodelButton;
-    private lib.ui.buttons.ModelButton captureModelButton;
-    private lib.ui.buttons.ModelButton frequencyModelButton;
+    private oh3ebf.lib.ui.buttons.ModelButton ACAmodelButton;
+    private oh3ebf.lib.ui.buttons.ModelButton ACVmodelButton;
+    private oh3ebf.lib.ui.buttons.ModelButton DCAmodelButton;
+    private oh3ebf.lib.ui.buttons.ModelButton DCVmodelButton;
+    private oh3ebf.lib.ui.buttons.ModelButton captureModelButton;
+    private oh3ebf.lib.ui.buttons.ModelButton frequencyModelButton;
     private javax.swing.JMenu jMenu2;
     private javax.swing.JMenuBar jMenuBar1;
     private javax.swing.JPanel jPanel1;
@@ -779,9 +779,9 @@ public class keithley2015 extends javax.swing.JInternalFrame implements
     private javax.swing.JTextArea loggingTextArea;
     private javax.swing.JFormattedTextField measureTextField;
     private javax.swing.JMenuItem optionsMenuItem;
-    private lib.ui.buttons.ModelButton resistance2ModelButton;
-    private lib.ui.buttons.ModelButton resistance4ModelButton;
+    private oh3ebf.lib.ui.buttons.ModelButton resistance2ModelButton;
+    private oh3ebf.lib.ui.buttons.ModelButton resistance4ModelButton;
     private javax.swing.JLabel statusLabel;
-    private lib.ui.buttons.ModelButton temperatureModelButton;
+    private oh3ebf.lib.ui.buttons.ModelButton temperatureModelButton;
     // End of variables declaration//GEN-END:variables
 }

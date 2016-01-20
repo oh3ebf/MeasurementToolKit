@@ -19,8 +19,8 @@ import java.awt.Color;
 import java.util.Hashtable;
 import javax.swing.JFormattedTextField;
 import javax.swing.JSpinner;
-import lib.ui.buttons.AdvancedButtonGroup;
-import lib.ui.buttons.ModelButton;
+import oh3ebf.lib.ui.buttons.AdvancedButtonGroup;
+import oh3ebf.lib.ui.buttons.ModelButton;
 import org.apache.log4j.Logger;
 import yami.ParamSet;
 
@@ -943,8 +943,8 @@ public class E4421B extends javax.swing.JInternalFrame implements MessageCallbac
     private javax.swing.JSpinner AM2rateSpinner;
     private javax.swing.JComboBox AM2sourceComboBox;
     private javax.swing.JComboBox AM2waveformComboBox;
-    private lib.ui.buttons.ModelButton AMmodulationButton1;
-    private lib.ui.buttons.ModelButton AMmodulationButton2;
+    private oh3ebf.lib.ui.buttons.ModelButton AMmodulationButton1;
+    private oh3ebf.lib.ui.buttons.ModelButton AMmodulationButton2;
     private javax.swing.JSpinner FM1depthSpinner;
     private javax.swing.JSpinner FM1rateSpinner;
     private javax.swing.JComboBox FM1sourceComboBox;
@@ -953,8 +953,8 @@ public class E4421B extends javax.swing.JInternalFrame implements MessageCallbac
     private javax.swing.JSpinner FM2rateSpinner;
     private javax.swing.JComboBox FM2sourceComboBox;
     private javax.swing.JComboBox FM2waveformComboBox;
-    private lib.ui.buttons.ModelButton FMModulationButton1;
-    private lib.ui.buttons.ModelButton FMModulationButton2;
+    private oh3ebf.lib.ui.buttons.ModelButton FMModulationButton1;
+    private oh3ebf.lib.ui.buttons.ModelButton FMModulationButton2;
     private javax.swing.JMenu FileMenu;
     private javax.swing.JRadioButtonMenuItem MHzMenuItem;
     private javax.swing.JMenu OptionsMenu;
@@ -966,8 +966,8 @@ public class E4421B extends javax.swing.JInternalFrame implements MessageCallbac
     private javax.swing.JSpinner PM2rateSpinner;
     private javax.swing.JComboBox PM2sourceComboBox;
     private javax.swing.JComboBox PM2waveformComboBox;
-    private lib.ui.buttons.ModelButton PhaseModulationButton1;
-    private lib.ui.buttons.ModelButton PhaseModulationButton2;
+    private oh3ebf.lib.ui.buttons.ModelButton PhaseModulationButton1;
+    private oh3ebf.lib.ui.buttons.ModelButton PhaseModulationButton2;
     private javax.swing.JPopupMenu UnitPopupMenu;
     private javax.swing.ButtonGroup UnitbuttonGroup;
     private javax.swing.JLabel jLabel1;
@@ -981,7 +981,7 @@ public class E4421B extends javax.swing.JInternalFrame implements MessageCallbac
     private javax.swing.JPanel jPanel5;
     private javax.swing.JTabbedPane jTabbedPane1;
     private javax.swing.JRadioButtonMenuItem kHzMenuItem;
-    private lib.ui.buttons.ModelButton modulationControlButton;
-    private lib.ui.buttons.ModelButton rfcontrolButton;
+    private oh3ebf.lib.ui.buttons.ModelButton modulationControlButton;
+    private oh3ebf.lib.ui.buttons.ModelButton rfcontrolButton;
     // End of variables declaration//GEN-END:variables
 }

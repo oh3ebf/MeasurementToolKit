@@ -15,8 +15,8 @@ import interfaces.MessageCallbackInterface;
 import interfaces.MessageInterface;
 import java.util.Hashtable;
 import javax.swing.JTabbedPane;
-import lib.gui.SpectrumPlot;
-import lib.gui.interfaces.WaveformDataInterface;
+import oh3ebf.lib.gui.SpectrumPlot;
+import oh3ebf.lib.gui.interfaces.WaveformDataInterface;
 import org.apache.log4j.Logger;
 import yami.ParamSet;
 

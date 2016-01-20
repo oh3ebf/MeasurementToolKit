@@ -10,9 +10,9 @@ package instruments;
  * @author  operator
  */
 
+import oh3ebf.lib.gui.ScopePlot;
 import javax.swing.*;
-import lib.gui.*;
-import lib.gui.interfaces.PlotCursorInterface;
+import oh3ebf.lib.gui.interfaces.PlotCursorInterface;
 
 public class DSO40Waveform extends javax.swing.JFrame  implements PlotCursorInterface {
     private ScopePlot scope;

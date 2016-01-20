@@ -48,7 +48,7 @@ public class AboutDialog extends javax.swing.JDialog {
         jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
-        imagePanel1 = new lib.ui.panels.ImagePanel();
+        imagePanel1 = new oh3ebf.lib.ui.panels.ImagePanel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setTitle("About");
@@ -135,7 +135,7 @@ public class AboutDialog extends javax.swing.JDialog {
         dispose();
     }//GEN-LAST:event_jButton1ActionPerformed
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private lib.ui.panels.ImagePanel imagePanel1;
+    private oh3ebf.lib.ui.panels.ImagePanel imagePanel1;
     private javax.swing.JButton jButton1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;

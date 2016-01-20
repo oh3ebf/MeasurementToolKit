@@ -10,10 +10,10 @@
  ***********************************************************/
 package instruments.keithley2015;
 
-import lib.common.utilities.ConfigurationInstance;
 import interfaces.OptionsInterface;
 import java.io.File;
 import javax.swing.JFileChooser;
+import oh3ebf.lib.common.utilities.ConfigurationInstance;
 import org.apache.log4j.Logger;
 
 public class keithley2015Options extends javax.swing.JInternalFrame {

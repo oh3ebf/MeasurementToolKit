@@ -10,16 +10,14 @@
  ***********************************************************/
 package instruments.hp54600;
 
+import oh3ebf.lib.gui.ScopePlot;
 import components.DeviceMessage;
-import instruments.scopedemo.*;
 import javax.swing.*;
-import lib.gui.*;
-import lib.gui.interfaces.PlotCursorInterface;
+import oh3ebf.lib.gui.interfaces.PlotCursorInterface;
 import org.apache.log4j.Logger;
 import components.ScaleSpinnerBox;
 import components.XmlReader;
 import components.XmlWriter;
-import lib.common.utilities.ConfigurationInstance;
 import interfaces.MessageCallbackInterface;
 import interfaces.MessageInterface;
 import interfaces.OptionsInterface;
@@ -32,15 +30,16 @@ import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.text.DecimalFormat;
 import java.util.Hashtable;
-import lib.gui.interfaces.WaveformDataInterface;
-import lib.gui.models.LinearVoltageScale;
-import lib.gui.models.SampleScale;
-import lib.gui.primitives.PlotCursor;
-import lib.ui.buttons.ModelButton;
-import lib.ui.comboboxes.ControlledComboBoxItem;
-import lib.ui.comboboxes.ControlledComboBoxRenderer;
-import lib.ui.comboboxes.uiHelpers;
-import lib.ui.fileWidgets.AdvancedFileChooser;
+import oh3ebf.lib.gui.interfaces.WaveformDataInterface;
+import oh3ebf.lib.gui.models.LinearVoltageScale;
+import oh3ebf.lib.gui.models.SampleScale;
+import oh3ebf.lib.gui.primitives.PlotCursor;
+import oh3ebf.lib.ui.buttons.ModelButton;
+import oh3ebf.lib.ui.comboboxes.ControlledComboBoxItem;
+import oh3ebf.lib.ui.comboboxes.ControlledComboBoxRenderer;
+import oh3ebf.lib.ui.comboboxes.uiHelpers;
+import oh3ebf.lib.ui.fileWidgets.AdvancedFileChooser;
+import oh3ebf.lib.common.utilities.ConfigurationInstance;
 import yami.ParamSet;
 
 public class HP54600 extends javax.swing.JInternalFrame implements
@@ -664,7 +663,7 @@ public class HP54600 extends javax.swing.JInternalFrame implements
         jPanel23 = new javax.swing.JPanel();
         jTabbedPane1 = new javax.swing.JTabbedPane();
         controlsPanel = new javax.swing.JPanel();
-        autoscaleModelButton = new lib.ui.buttons.ModelButton();
+        autoscaleModelButton = new oh3ebf.lib.ui.buttons.ModelButton();
         runModelButton = new ModelButton("Stop", "Run");
         cursorPanel = new javax.swing.JPanel();
         jPanel3 = new javax.swing.JPanel();
@@ -1393,7 +1392,7 @@ public class HP54600 extends javax.swing.JInternalFrame implements
 
     private void CursorXYRadioButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CursorXYRadioButtonActionPerformed
         // XY cursors
-        scope.setCursorMode(lib.gui.primitives.PlotCursor.CURSOR_XY);
+        scope.setCursorMode(oh3ebf.lib.gui.primitives.PlotCursor.CURSOR_XY);
         labelX1.setEnabled(true);
         labelX2.setEnabled(true);
         labelDeltaX.setEnabled(true);
@@ -1404,7 +1403,7 @@ public class HP54600 extends javax.swing.JInternalFrame implements
 
     private void CursorYRadioButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CursorYRadioButtonActionPerformed
         // Y cursors
-        scope.setCursorMode(lib.gui.primitives.PlotCursor.CURSOR_Y);
+        scope.setCursorMode(oh3ebf.lib.gui.primitives.PlotCursor.CURSOR_Y);
         labelX1.setEnabled(false);
         labelX2.setEnabled(false);
         labelDeltaX.setEnabled(false);
@@ -1415,7 +1414,7 @@ public class HP54600 extends javax.swing.JInternalFrame implements
 
     private void CursorXRadioButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CursorXRadioButtonActionPerformed
         // X cursors
-        scope.setCursorMode(lib.gui.primitives.PlotCursor.CURSOR_X);
+        scope.setCursorMode(oh3ebf.lib.gui.primitives.PlotCursor.CURSOR_X);
         labelX1.setEnabled(true);
         labelX2.setEnabled(true);
         labelDeltaX.setEnabled(true);
@@ -1426,7 +1425,7 @@ public class HP54600 extends javax.swing.JInternalFrame implements
 
     private void CursorNoneRadioButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CursorNoneRadioButtonActionPerformed
         // no cursors
-        scope.setCursorMode(lib.gui.primitives.PlotCursor.CURSOR_NONE);
+        scope.setCursorMode(oh3ebf.lib.gui.primitives.PlotCursor.CURSOR_NONE);
         labelX1.setEnabled(false);
         labelX2.setEnabled(false);
         labelDeltaX.setEnabled(false);
@@ -1528,7 +1527,7 @@ public class HP54600 extends javax.swing.JInternalFrame implements
 
     private void PrintMenuItemActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_PrintMenuItemActionPerformed
         // TODO add your handling code here:
-        lib.common.utilities.PrintUtilities.printComponent(this);
+        oh3ebf.lib.common.utilities.PrintUtilities.printComponent(this);
     }//GEN-LAST:event_PrintMenuItemActionPerformed
 
     private void runModelButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_runModelButtonActionPerformed
@@ -1668,7 +1667,7 @@ public class HP54600 extends javax.swing.JInternalFrame implements
     private javax.swing.JMenuItem PrintMenuItem;
     private javax.swing.JMenuItem SaveAsMenuItem;
     private javax.swing.JMenuItem SaveMenuItem;
-    private lib.ui.buttons.ModelButton autoscaleModelButton;
+    private oh3ebf.lib.ui.buttons.ModelButton autoscaleModelButton;
     private javax.swing.JPanel controlsPanel;
     private javax.swing.ButtonGroup cursorButtonGroup;
     private javax.swing.JTextField cursorDeltaX;
@@ -1731,7 +1730,7 @@ public class HP54600 extends javax.swing.JInternalFrame implements
     private javax.swing.JLabel labelX2;
     private javax.swing.JLabel labelY1;
     private javax.swing.JLabel labelY2;
-    private lib.ui.buttons.ModelButton runModelButton;
+    private oh3ebf.lib.ui.buttons.ModelButton runModelButton;
     private javax.swing.JSpinner timeScaleSpinner;
     private javax.swing.JComboBox triggerCplComboBox;
     private javax.swing.JSpinner triggerHoldoffSpinner;

@@ -13,7 +13,7 @@ package instruments.hp3488;
 import components.DeviceMessage;
 import components.XmlReader;
 import components.XmlWriter;
-import lib.ui.buttons.*;
+import oh3ebf.lib.ui.buttons.*;
 import networking.*;
 import interfaces.*;
 import java.util.Hashtable;
@@ -191,8 +191,8 @@ public class HP3480 extends javax.swing.JInternalFrame
 
         jPanel1 = new javax.swing.JPanel();
         jTextField1 = new javax.swing.JTextField();
-        resetButton = new lib.ui.buttons.ModelButton();
-        testButton = new lib.ui.buttons.ModelButton();
+        resetButton = new oh3ebf.lib.ui.buttons.ModelButton();
+        testButton = new oh3ebf.lib.ui.buttons.ModelButton();
         jPanel3 = new javax.swing.JPanel();
         jPanel2 = new javax.swing.JPanel();
 
@@ -289,7 +289,7 @@ public class HP3480 extends javax.swing.JInternalFrame
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
     private javax.swing.JTextField jTextField1;
-    private lib.ui.buttons.ModelButton resetButton;
-    private lib.ui.buttons.ModelButton testButton;
+    private oh3ebf.lib.ui.buttons.ModelButton resetButton;
+    private oh3ebf.lib.ui.buttons.ModelButton testButton;
     // End of variables declaration//GEN-END:variables
 }

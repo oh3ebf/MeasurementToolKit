@@ -14,7 +14,7 @@ import components.WaveformParserBase;
 import components.XmlWriter;
 import java.util.Iterator;
 import java.util.List;
-import lib.gui.models.DefaultWaveModel;
+import oh3ebf.lib.gui.models.DefaultWaveModel;
 import org.jdom.Element;
 
 public class HP54600WaveformParser extends WaveformParserBase {

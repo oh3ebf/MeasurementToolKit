@@ -10,8 +10,8 @@
  ***********************************************************/
 package instruments.hp54600;
 
-import lib.common.utilities.ConfigurationInstance;
 import interfaces.OptionsInterface;
+import oh3ebf.lib.common.utilities.ConfigurationInstance;
 import org.apache.log4j.Logger;
 
 public class HP54600Options extends javax.swing.JInternalFrame {

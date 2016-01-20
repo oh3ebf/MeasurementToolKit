@@ -10,7 +10,7 @@
  ***********************************************************/
 package instruments.hp54600;
 
-import lib.gui.models.DefaultWaveModel;
+import oh3ebf.lib.gui.models.DefaultWaveModel;
 
 public class HP54600WaveModel extends DefaultWaveModel {
 

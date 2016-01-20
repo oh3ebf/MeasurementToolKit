@@ -12,8 +12,8 @@
 package instruments.hp54600;
 
 import components.DeviceMessage;
-import lib.ui.comboboxes.ControlledComboBoxItem;
-import lib.ui.comboboxes.ControlledComboBoxRenderer;
+import oh3ebf.lib.ui.comboboxes.ControlledComboBoxItem;
+import oh3ebf.lib.ui.comboboxes.ControlledComboBoxRenderer;
 
 
 public class ChannelControls extends javax.swing.JPanel {

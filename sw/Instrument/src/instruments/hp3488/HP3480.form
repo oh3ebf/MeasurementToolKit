@@ -89,7 +89,7 @@
             </Constraint>
           </Constraints>
         </Component>
-        <Component class="lib.ui.buttons.ModelButton" name="resetButton">
+        <Component class="oh3ebf.lib.ui.buttons.ModelButton" name="resetButton">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="e1" red="c2" type="rgb"/>
@@ -105,7 +105,7 @@
             </Constraint>
           </Constraints>
         </Component>
-        <Component class="lib.ui.buttons.ModelButton" name="testButton">
+        <Component class="oh3ebf.lib.ui.buttons.ModelButton" name="testButton">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="e1" red="c2" type="rgb"/>

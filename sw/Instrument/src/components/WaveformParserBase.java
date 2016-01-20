@@ -10,7 +10,7 @@
  ***********************************************************/
 package components;
 
-import lib.gui.models.DefaultWaveModel;
+import oh3ebf.lib.gui.models.DefaultWaveModel;
 import org.apache.log4j.Logger;
 import org.jdom.Element;
 

@@ -10,13 +10,13 @@
  ***********************************************************/
 package components;
 
-import lib.common.utilities.ConfigurationInstance;
 import interfaces.MessageCallbackInterface;
 import interfaces.MessageInterface;
 import interfaces.OptionsInterface;
 import java.awt.Dimension;
 import java.util.Hashtable;
 import javax.swing.JInternalFrame;
+import oh3ebf.lib.common.utilities.ConfigurationInstance;
 import org.apache.log4j.Logger;
 import yami.ParamSet;
 

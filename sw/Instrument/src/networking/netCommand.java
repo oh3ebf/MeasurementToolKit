@@ -20,7 +20,7 @@ import interfaces.MessageInterface;
 import java.net.InetAddress;
 import java.net.UnknownHostException;
 import java.util.Hashtable;
-import lib.common.exceptions.genericException;
+import oh3ebf.lib.common.exceptions.genericException;
 
 public class netCommand implements Callback, MessageInterface {
     

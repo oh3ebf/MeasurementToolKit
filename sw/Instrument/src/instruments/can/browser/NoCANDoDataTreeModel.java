@@ -14,7 +14,7 @@ import components.CanFrame;
 import java.util.Arrays;
 import java.util.Hashtable;
 import javax.swing.tree.TreePath;
-import lib.common.utilities.ByteConverter;
+import oh3ebf.lib.common.utilities.ByteConverter;
 import org.apache.log4j.Logger;
 import org.jdesktop.swingx.treetable.DefaultTreeTableModel;
 import org.jdesktop.swingx.treetable.TreeTableNode;
